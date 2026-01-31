@@ -51,11 +51,13 @@
             Home
           </li>
           <li
+            id="headerCardapio"
             class="2xl:text-2xl hover:bg-[#d03928] text-black/90 hover:text-white/90 py-2 px-2 rounded-xl duration-150 ease hover:translate-y-[-2px] text-lg cursor-pointer hover:shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)]"
           >
             Cardápio
           </li>
           <li
+            id="headerFeedbacks"
             class="2xl:text-2xl hover:bg-[#d03928] text-black/90 hover:text-white/90 py-2 px-2 rounded-xl duration-150 ease hover:translate-y-[-2px] text-lg cursor-pointer hover:shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)]"
           >
             Feedbacks
@@ -150,7 +152,7 @@
         class="pratos flex flex-col justify-center items-start w-full relative gap-5 mb-[3rem]"
       >
         <div
-          class="flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] xl:w-[100%] relative bg-white/90 rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          class="divPizza flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] xl:w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
         >
           <div class="flex flex-col justify-center items-start font-[poppins]">
             <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
@@ -177,7 +179,7 @@
         </div>
 
         <div
-          class="flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] w-[100%] relative bg-white/90 rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          class="divPizza flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
         >
           <div class="flex flex-col justify-center items-start font-[poppins]">
             <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
@@ -204,7 +206,7 @@
         </div>
 
         <div
-          class="flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] xl:w-[100%] relative bg-white/90 rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          class="divPizza flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] xl:w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
         >
           <div class="flex flex-col justify-center items-start font-[poppins]">
             <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
@@ -231,7 +233,7 @@
         </div>
 
         <div
-          class="flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem]  xl:w-[100%] relative bg-white/90 rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          class="divPizza flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] xl:w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
         >
           <div class="flex flex-col justify-center items-start font-[poppins]">
             <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
@@ -258,14 +260,647 @@
         </div>
       </div>
       <div class="flex justify-center items-center mb-[3rem]">
-        <a
-          class="viewMenu text-2xl md:text-3xl 2xl:text-4xl text-white/90 rounded-[5rem] w-[fit-content] px-8 md:px-12 py-3 hover:translate-y-[-4px] hover:scale-[1.02] duration-500 ease bg-[#d03928] hover:bg-[#b83222] shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] delay-100"
+        <div
+          id="viewCardapio"
+          class="viewMenu cursor-pointer text-2xl md:text-3xl 2xl:text-4xl text-white/90 rounded-[5rem] w-[fit-content] px-8 md:px-12 py-3 hover:translate-y-[-4px] hover:scale-[1.02] duration-500 ease bg-[#d03928] hover:bg-[#b83222] shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] delay-100"
           href=""
-          >Confira nosso cardápio completo agora!</a
         >
+          Confira nosso cardápio completo agora!
+        </div>
+      </div>
+      <div class="cardapio hidden relative w-full">
+        <ul class="flex justify-start items-center gap-8">
+          <li
+            id="btn-salgadas"
+            href="#salgadas"
+            class="2xl:text-2xl font-[poppins] text-black/90 font-bold cursor-pointer hover:text-black/90 hover:translate-y-[-4px] transition-all duration-300 ease-out xl:delay-100"
+          >
+            Pizzas salgadas
+          </li>
+          <li
+            id="btn-doces"
+            href="#doces"
+            class="2xl:text-2xl font-[poppins] text-black/70 cursor-pointer hover:text-black/90 hover:translate-y-[-4px] transition-all duration-300 ease-out xl:delay-100"
+          >
+            Pizzas doces
+          </li>
+          <li
+            id="btn-bebidas"
+            href="#bebidas"
+            class="2xl:text-2xl font-[poppins] text-black/70 cursor-pointer hover:text-black/90 hover:translate-y-[-4px] transition-all duration-300 ease-out xl:delay-100"
+          >
+            Bebidas
+          </li>
+        </ul>
+        <div
+          id="salgadas"
+          class="pizzasSalgadas z-10 flex-col justify-center items-start w-full gap-5 mb-[3rem] mt-[2rem]"
+        >
+          <div
+            class="divPizza flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] xl:w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          >
+            <div
+              class="flex flex-col justify-center items-start font-[poppins]"
+            >
+              <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
+                Pizza Grande Frango com Catupiry
+              </p>
+              <p
+                class="text-black/60 text-sm md:text-md 2xl:text-lg mt-[0.5rem]"
+              >
+                Frango desfiado com Catupiry (Original)
+              </p>
+              <p class="md:text-xl text-black/70 font-semibold mt-[2rem]">
+                A partir de R$ 69,99
+              </p>
+              <a
+                href="https://wa.me/5511943129118?text=Quero%20uma%20pizza%20de%20carne"
+                class="pedir py-[1.3em] px-[2em] xl:px-[3em] text-sm rounded-lg mt-[1rem] uppercase tracking-[2.5px] font-[500] text-white/90 bg-[#aeaeae] transition-all duration-300 ease-out hover:bg-[#1e1e1e] hover:shadow-[0_15px_20px_rgba(0,0,0,0.4)] hover:text-white/90 hover:-translate-y-1"
+              >
+                Pedir
+              </a>
+            </div>
+            <img
+              class="w-[30%] xl:w-[20%] 2xl:w-[15%] rounded-xl"
+              src="Assets/img/francoC.png"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="divPizza flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          >
+            <div
+              class="flex flex-col justify-center items-start font-[poppins]"
+            >
+              <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
+                Pizza Grande Calabresa
+              </p>
+              <p
+                class="text-black/60 text-sm md:text-md 2xl:text-lg mt-[0.5rem]"
+              >
+                Calabresa Fatiada com Cebola e Orégano
+              </p>
+              <p class="md:text-xl text-black/70 font-semibold mt-[2rem]">
+                A partir de R$ 69,99
+              </p>
+              <a
+                href="https://wa.me/5511943129118?text=Quero%20uma%20pizza%20de%20carne"
+                class="pedir py-[1.3em] px-[2em] xl:px-[3em] text-sm rounded-lg mt-[1rem] uppercase tracking-[2.5px] font-[500] text-white/90 bg-[#aeaeae] transition-all duration-300 ease-out hover:bg-[#1e1e1e] hover:shadow-[0_15px_20px_rgba(0,0,0,0.4)] hover:text-white/90 hover:-translate-y-1"
+              >
+                Pedir
+              </a>
+            </div>
+            <img
+              class="w-[30%] xl:w-[20%] 2xl:w-[15%] rounded-xl"
+              src="Assets/img/calabresa.png"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="divPizza flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] xl:w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          >
+            <div
+              class="flex flex-col justify-center items-start font-[poppins]"
+            >
+              <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
+                Pizza Grande Calabresa com queijo
+              </p>
+              <p
+                class="text-black/60 text-sm md:text-md 2xl:text-lg mt-[0.5rem]"
+              >
+                Calabresa Fatiada com Orégano e Queijo Mussarela
+              </p>
+              <p class="md:text-xl text-black/70 font-semibold mt-[2rem]">
+                A partir de R$ 69,99
+              </p>
+              <a
+                href="https://wa.me/5511943129118?text=Quero%20uma%20pizza%20de%20carne"
+                class="pedir py-[1.3em] px-[2em] xl:px-[3em] text-sm rounded-lg mt-[1rem] uppercase tracking-[2.5px] font-[500] text-white/90 bg-[#aeaeae] transition-all duration-300 ease-out hover:bg-[#1e1e1e] hover:shadow-[0_15px_20px_rgba(0,0,0,0.4)] hover:/90 hover:-translate-y-1"
+              >
+                Pedir
+              </a>
+            </div>
+            <img
+              class="w-[30%] xl:w-[20%] 2xl:w-[15%] rounded-xl"
+              src="Assets/img/calabEqueijo.png"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="divPizza flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] xl:w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          >
+            <div
+              class="flex flex-col justify-center items-start font-[poppins]"
+            >
+              <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
+                Pizza Grande Queijo
+              </p>
+              <p
+                class="text-black/60 text-sm md:text-md 2xl:text-lg mt-[0.5rem]"
+              >
+                Queijo Mussarela Tradicional, Rodelas de Tomate e Orégano
+              </p>
+              <p class="md:text-xl text-black/70 font-semibold mt-[2rem]">
+                A partir de R$ 69,99
+              </p>
+              <a
+                href="https://wa.me/5511943129118?text=Quero%20uma%20pizza%20de%20carne"
+                class="pedir py-[1.3em] px-[2em] xl:px-[3em] text-sm rounded-lg mt-[1rem] uppercase tracking-[2.5px] font-[500] text-white/90 bg-[#aeaeae] transition-all duration-300 ease-out hover:bg-[#1e1e1e] hover:shadow-[0_15px_20px_rgba(0,0,0,0.4)] hover:text-white/90 hover:-translate-y-1"
+              >
+                Pedir
+              </a>
+            </div>
+            <img
+              class="w-[30%] xl:w-[20%] 2xl:w-[15%] rounded-xl"
+              src="Assets/img/queijo.png"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="divPizza flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] xl:w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          >
+            <div
+              class="flex flex-col justify-center items-start font-[poppins]"
+            >
+              <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
+                Pizza Grande Portuguesa
+              </p>
+              <p
+                class="text-black/60 text-sm md:text-md 2xl:text-lg mt-[0.5rem]"
+              >
+                Presunto, Ovo, Cebola, Azeitona, Pimentão e Orégano
+              </p>
+              <p class="md:text-xl text-black/70 font-semibold mt-[2rem]">
+                A partir de R$ 69,99
+              </p>
+              <a
+                href="https://wa.me/5511943129118?text=Quero%20uma%20pizza%20de%20carne"
+                class="pedir py-[1.3em] px-[2em] xl:px-[3em] text-sm rounded-lg mt-[1rem] uppercase tracking-[2.5px] font-[500] text-white/90 bg-[#aeaeae] transition-all duration-300 ease-out hover:bg-[#1e1e1e] hover:shadow-[0_15px_20px_rgba(0,0,0,0.4)] hover:text-white/90 hover:-translate-y-1"
+              >
+                Pedir
+              </a>
+            </div>
+            <img
+              class="w-[30%] xl:w-[20%] 2xl:w-[15%] rounded-xl"
+              src="Assets/img/portuguesa.png"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="divPizza flex gap-2 mb-[3rem] justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] xl:w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          >
+            <div
+              class="flex flex-col justify-center items-start font-[poppins]"
+            >
+              <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
+                Pizza Grande Marguerita
+              </p>
+              <p
+                class="text-black/60 text-sm md:text-md 2xl:text-lg mt-[0.5rem]"
+              >
+                Molho de Tomate, Queijo Mussarela, Rodelas de Tomate e
+                Manjericão
+              </p>
+              <p class="md:text-xl text-black/70 font-semibold mt-[2rem]">
+                A partir de R$ 69,99
+              </p>
+              <a
+                href="https://wa.me/5511943129118?text=Quero%20uma%20pizza%20de%20carne"
+                class="pedir py-[1.3em] px-[2em] xl:px-[3em] text-sm rounded-lg mt-[1rem] uppercase tracking-[2.5px] font-[500] text-white/90 bg-[#aeaeae] transition-all duration-300 ease-out hover:bg-[#1e1e1e] hover:shadow-[0_15px_20px_rgba(0,0,0,0.4)] hover:text-white/90 hover:-translate-y-1"
+              >
+                Pedir
+              </a>
+            </div>
+            <img
+              class="w-[30%] xl:w-[20%] 2xl:w-[15%] rounded-xl"
+              src="Assets/img/queijo.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          id="doces"
+          class="pizzasDoces z-0 flex flex-col justify-center items-start w-full gap-5 mb-[3rem] mt-[2rem]"
+        >
+          <div
+            class="divPizza flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] xl:w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          >
+            <div
+              class="flex flex-col justify-center items-start font-[poppins]"
+            >
+              <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
+                Pizza Grande Chocolate
+              </p>
+              <p
+                class="text-black/60 text-sm md:text-md 2xl:text-lg mt-[0.5rem]"
+              >
+                Chocolate ao Leite derretido
+              </p>
+              <p class="md:text-xl text-black/70 font-semibold mt-[2rem]">
+                A partir de R$ 69,99
+              </p>
+              <a
+                href="https://wa.me/5511943129118?text=Quero%20uma%20pizza%20de%20carne"
+                class="pedir py-[1.3em] px-[2em] xl:px-[3em] text-sm rounded-lg mt-[1rem] uppercase tracking-[2.5px] font-[500] text-white/90 bg-[#aeaeae] transition-all duration-300 ease-out hover:bg-[#1e1e1e] hover:shadow-[0_15px_20px_rgba(0,0,0,0.4)] hover:text-white/90 hover:-translate-y-1"
+              >
+                Pedir
+              </a>
+            </div>
+            <img
+              class="w-[30%] xl:w-[20%] 2xl:w-[15%] rounded-xl"
+              src="Assets/img/chocolate.png"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="divPizza flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          >
+            <div
+              class="flex flex-col justify-center items-start font-[poppins]"
+            >
+              <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
+                Pizza Grande Chocolate com Morango
+              </p>
+              <p
+                class="text-black/60 text-sm md:text-md 2xl:text-lg mt-[0.5rem]"
+              >
+                Chocolate ao Leite derretido com Morangos frescos
+              </p>
+              <p class="md:text-xl text-black/70 font-semibold mt-[2rem]">
+                A partir de R$ 69,99
+              </p>
+              <a
+                href="https://wa.me/5511943129118?text=Quero%20uma%20pizza%20de%20carne"
+                class="pedir py-[1.3em] px-[2em] xl:px-[3em] text-sm rounded-lg mt-[1rem] uppercase tracking-[2.5px] font-[500] text-white/90 bg-[#aeaeae] transition-all duration-300 ease-out hover:bg-[#1e1e1e] hover:shadow-[0_15px_20px_rgba(0,0,0,0.4)] hover:text-white/90 hover:-translate-y-1"
+              >
+                Pedir
+              </a>
+            </div>
+            <img
+              class="w-[30%] xl:w-[20%] 2xl:w-[15%] rounded-xl"
+              src="Assets/img/chocolateMorango.png"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="divPizza flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] xl:w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          >
+            <div
+              class="flex flex-col justify-center items-start font-[poppins]"
+            >
+              <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
+                Pizza Grande Chocolate com Coco
+              </p>
+              <p
+                class="text-black/60 text-sm md:text-md 2xl:text-lg mt-[0.5rem]"
+              >
+                Chocolate ao Leite derretido com Coco ralado
+              </p>
+              <p class="md:text-xl text-black/70 font-semibold mt-[2rem]">
+                A partir de R$ 69,99
+              </p>
+              <a
+                href="https://wa.me/5511943129118?text=Quero%20uma%20pizza%20de%20carne"
+                class="pedir py-[1.3em] px-[2em] xl:px-[3em] text-sm rounded-lg mt-[1rem] uppercase tracking-[2.5px] font-[500] text-white/90 bg-[#aeaeae] transition-all duration-300 ease-out hover:bg-[#1e1e1e] hover:shadow-[0_15px_20px_rgba(0,0,0,0.4)] hover:/90 hover:-translate-y-1"
+              >
+                Pedir
+              </a>
+            </div>
+            <img
+              class="w-[30%] xl:w-[20%] 2xl:w-[15%] rounded-xl"
+              src="Assets/img/chocolateCoco.png"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="divPizza flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] xl:w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          >
+            <div
+              class="flex flex-col justify-center items-start font-[poppins]"
+            >
+              <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
+                Pizza Grande Chocolate com Uvas
+              </p>
+              <p
+                class="text-black/60 text-sm md:text-md 2xl:text-lg mt-[0.5rem]"
+              >
+                Chocolate ao Leite derretido com Uvas verdes frescas
+              </p>
+              <p class="md:text-xl text-black/70 font-semibold mt-[2rem]">
+                A partir de R$ 69,99
+              </p>
+              <a
+                href="https://wa.me/5511943129118?text=Quero%20uma%20pizza%20de%20carne"
+                class="pedir py-[1.3em] px-[2em] xl:px-[3em] text-sm rounded-lg mt-[1rem] uppercase tracking-[2.5px] font-[500] text-white/90 bg-[#aeaeae] transition-all duration-300 ease-out hover:bg-[#1e1e1e] hover:shadow-[0_15px_20px_rgba(0,0,0,0.4)] hover:text-white/90 hover:-translate-y-1"
+              >
+                Pedir
+              </a>
+            </div>
+            <img
+              class="w-[30%] xl:w-[20%] 2xl:w-[15%] rounded-xl"
+              src="Assets/img/chocolateUva.png"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="divPizza flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] xl:w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          >
+            <div
+              class="flex flex-col justify-center items-start font-[poppins]"
+            >
+              <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
+                Pizza Grande Chocolate com M&M's
+              </p>
+              <p
+                class="text-black/60 text-sm md:text-md 2xl:text-lg mt-[0.5rem]"
+              >
+                Chocolate ao Leite derretido com M&M's coloridos
+              </p>
+              <p class="md:text-xl text-black/70 font-semibold mt-[2rem]">
+                A partir de R$ 69,99
+              </p>
+              <a
+                href="https://wa.me/5511943129118?text=Quero%20uma%20pizza%20de%20carne"
+                class="pedir py-[1.3em] px-[2em] xl:px-[3em] text-sm rounded-lg mt-[1rem] uppercase tracking-[2.5px] font-[500] text-white/90 bg-[#aeaeae] transition-all duration-300 ease-out hover:bg-[#1e1e1e] hover:shadow-[0_15px_20px_rgba(0,0,0,0.4)] hover:text-white/90 hover:-translate-y-1"
+              >
+                Pedir
+              </a>
+            </div>
+            <img
+              class="w-[30%] xl:w-[20%] 2xl:w-[15%] rounded-xl"
+              src="Assets/img/chocolateMms.png"
+              alt=""
+            />
+          </div>
+          <div
+            class="divPizza flex gap-2 mb-[3rem] justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] xl:w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          >
+            <div
+              class="flex flex-col justify-center items-start font-[poppins]"
+            >
+              <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
+                Pizza Grande Chocolate com M&M's
+              </p>
+              <p
+                class="text-black/60 text-sm md:text-md 2xl:text-lg mt-[0.5rem]"
+              >
+                Chocolate ao Leite derretido com M&M's coloridos
+              </p>
+              <p class="md:text-xl text-black/70 font-semibold mt-[2rem]">
+                A partir de R$ 69,99
+              </p>
+              <a
+                href="https://wa.me/5511943129118?text=Quero%20uma%20pizza%20de%20carne"
+                class="pedir py-[1.3em] px-[2em] xl:px-[3em] text-sm rounded-lg mt-[1rem] uppercase tracking-[2.5px] font-[500] text-white/90 bg-[#aeaeae] transition-all duration-300 ease-out hover:bg-[#1e1e1e] hover:shadow-[0_15px_20px_rgba(0,0,0,0.4)] hover:text-white/90 hover:-translate-y-1"
+              >
+                Pedir
+              </a>
+            </div>
+            <img
+              class="w-[30%] xl:w-[20%] 2xl:w-[15%] rounded-xl"
+              src="Assets/img/chocolateMms.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          id="bebidas"
+          class="bebidas z-0 flex flex-col justify-center items-start w-full gap-5 mb-[3rem] mt-[2rem]"
+        >
+          <div
+            class="divPizza flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] xl:w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          >
+            <div
+              class="flex flex-col justify-center items-start font-[poppins]"
+            >
+              <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
+                Coca-Cola 2L
+              </p>
+              <p class="md:text-xl text-black/70 font-semibold mt-[2rem]">
+                A partir de R$ 69,99
+              </p>
+              <a
+                href="https://wa.me/5511943129118?text=Quero%20uma%20pizza%20de%20carne"
+                class="pedir py-[1.3em] px-[2em] xl:px-[3em] text-sm rounded-lg mt-[1rem] uppercase tracking-[2.5px] font-[500] text-white/90 bg-[#aeaeae] transition-all duration-300 ease-out hover:bg-[#1e1e1e] hover:shadow-[0_15px_20px_rgba(0,0,0,0.4)] hover:text-white/90 hover:-translate-y-1"
+              >
+                Pedir
+              </a>
+            </div>
+            <img
+              class="w-[30%] xl:w-[20%] 2xl:w-[15%] rounded-xl"
+              src="Assets/img/coca2L.png"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="divBebida flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          >
+            <div
+              class="flex flex-col justify-center items-start font-[poppins]"
+            >
+              <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
+                Coca-Cola Zero 2L
+              </p>
+              <p class="md:text-xl text-black/70 font-semibold mt-[2rem]">
+                A partir de R$ 69,99
+              </p>
+              <a
+                href="https://wa.me/5511943129118?text=Quero%20uma%20pizza%20de%20carne"
+                class="pedir py-[1.3em] px-[2em] xl:px-[3em] text-sm rounded-lg mt-[1rem] uppercase tracking-[2.5px] font-[500] text-white/90 bg-[#aeaeae] transition-all duration-300 ease-out hover:bg-[#1e1e1e] hover:shadow-[0_15px_20px_rgba(0,0,0,0.4)] hover:text-white/90 hover:-translate-y-1"
+              >
+                Pedir
+              </a>
+            </div>
+            <img
+              class="w-[30%] xl:w-[20%] 2xl:w-[15%] rounded-xl"
+              src="Assets/img/cocaZ2L.png"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="divPizza flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] xl:w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          >
+            <div
+              class="flex flex-col justify-center items-start font-[poppins]"
+            >
+              <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
+                Fanta Laranja 2L
+              </p>
+              <p class="md:text-xl text-black/70 font-semibold mt-[2rem]">
+                A partir de R$ 69,99
+              </p>
+              <a
+                href="https://wa.me/5511943129118?text=Quero%20uma%20pizza%20de%20carne"
+                class="pedir py-[1.3em] px-[2em] xl:px-[3em] text-sm rounded-lg mt-[1rem] uppercase tracking-[2.5px] font-[500] text-white/90 bg-[#aeaeae] transition-all duration-300 ease-out hover:bg-[#1e1e1e] hover:shadow-[0_15px_20px_rgba(0,0,0,0.4)] hover:/90 hover:-translate-y-1"
+              >
+                Pedir
+              </a>
+            </div>
+            <img
+              class="w-[30%] xl:w-[20%] 2xl:w-[15%] rounded-xl"
+              src="Assets/img/fantaLaranja.png"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="divPizza flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] xl:w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          >
+            <div
+              class="flex flex-col justify-center items-start font-[poppins]"
+            >
+              <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
+                Dolly Limão 2L
+              </p>
+              <p class="md:text-xl text-black/70 font-semibold mt-[2rem]">
+                A partir de R$ 69,99
+              </p>
+              <a
+                href="https://wa.me/5511943129118?text=Quero%20uma%20pizza%20de%20carne"
+                class="pedir py-[1.3em] px-[2em] xl:px-[3em] text-sm rounded-lg mt-[1rem] uppercase tracking-[2.5px] font-[500] text-white/90 bg-[#aeaeae] transition-all duration-300 ease-out hover:bg-[#1e1e1e] hover:shadow-[0_15px_20px_rgba(0,0,0,0.4)] hover:text-white/90 hover:-translate-y-1"
+              >
+                Pedir
+              </a>
+            </div>
+            <img
+              class="w-[30%] xl:w-[20%] 2xl:w-[15%] rounded-xl"
+              src="Assets/img/dollyLimao.png"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="divPizza flex gap-2 justify-between items-center px-3 md:px-[4rem] xl:px-[4rem] xl:w-[100%] relative bg-[#e7e7e7] rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:shadow-[0_16px_40px_rgba(0,0,0,0.12)] hover:scale-[1.02] hover:translate-y-[-4px] duration-500 ease py-5"
+          >
+            <div
+              class="flex flex-col justify-center items-start font-[poppins]"
+            >
+              <p class="text-black/90 md:text-2xl 2xl:text-4xl font-bold">
+                Dolly Guaraná 2L
+              </p>
+              <p class="md:text-xl text-black/70 font-semibold mt-[2rem]">
+                A partir de R$ 69,99
+              </p>
+              <a
+                href="https://wa.me/5511943129118?text=Quero%20uma%20pizza%20de%20carne"
+                class="pedir py-[1.3em] px-[2em] xl:px-[3em] text-sm rounded-lg mt-[1rem] uppercase tracking-[2.5px] font-[500] text-white/90 bg-[#aeaeae] transition-all duration-300 ease-out hover:bg-[#1e1e1e] hover:shadow-[0_15px_20px_rgba(0,0,0,0.4)] hover:text-white/90 hover:-translate-y-1"
+              >
+                Pedir
+              </a>
+            </div>
+            <img
+              class="w-[30%] xl:w-[20%] 2xl:w-[15%] rounded-xl"
+              src="Assets/img/dollyGuarana.png"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
 
       <hr class="mb-[3rem] border-[#949494] rounded-xl" />
+      <section
+        class="feedbacks flex flex-col gap-10 justify-center items-center w-full mb-[5rem]"
+      >
+      <h2 class="text-4xl xl:text-5xl text-black/90">Nossos Feedbacks</h2>
+      <p class="font-[poppins] text-black/80 xl:text-xl text-center">Saiba o que nossos clientes costumam falar sobre nós em suas redes sociais!!</p>
+        <div class="flex flex-col xl:flex-row justify-between items-center gap-10 w-full">
+          <!-- Conteúdo do depoimento 1 -->
+          <div class="bg-white/90 rounded-lg shadow-lg p-6 space-y-4 flex-1 h-[205px]">
+            <div class="flex items-center space-x-4">
+              <div
+                class="cursor-default h-12 w-12 flex items-center justify-center bg-red-900 text-white text-lg font-semibold rounded-full"
+              >
+                G
+              </div>
+              <div>
+                <div class="text-gray-900 font-medium cursor-default">
+                  ap._gislaine
+                </div>
+                <div class="text-gray-600 text-sm cursor-default">Cliente</div>
+              </div>
+            </div>
+            <div class="flex text-[#F0C75E] text-xl cursor-default">★★★★★</div>
+            <p class="text-gray-700">
+             <span class="underline font-bold">@dalore.pizzaria</span> se comprometeu e cumpriu! Simplesmente divina a pizza deles! Parabéns!
+            </p>
+          </div>
+
+          <!-- Conteúdo do depoimento 1 -->
+          <div class="bg-white/90 rounded-lg shadow-lg p-6 space-y-4 flex-1 h-[205px]">
+            <div class="flex items-center space-x-4">
+              <div
+                class="cursor-default h-12 w-12 flex items-center justify-center bg-red-900 text-white text-lg font-semibold rounded-full"
+              >
+                D
+              </div>
+              <div>
+                <div class="text-gray-900 font-medium cursor-default">
+                  drikaperes25
+                </div>
+                <div class="text-gray-600 text-sm cursor-default">Cliente</div>
+              </div>
+            </div>
+            <div class="flex text-[#F0C75E] text-xl cursor-default">★★★★★</div>
+            <p class="text-gray-700">
+              Impossível resisitr! Simplesmente maravilhosa. amoooooo. Obrigada Barba, como sempre o melhor atendimento e sabor.
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col xl:flex-row justify-between items-center gap-10 w-full">
+          <!-- Conteúdo do depoimento 1 -->
+          <div class="bg-white/90 rounded-lg shadow-lg p-6 space-y-4 flex-1 h-[205px]">
+            <div class="flex items-center space-x-4">
+              <div
+                class="cursor-default h-12 w-12 flex items-center justify-center bg-red-900 text-white text-lg font-semibold rounded-full"
+              >
+                J
+              </div>
+              <div>
+                <div class="text-gray-900 font-medium cursor-default">
+                  juishihara
+                </div>
+                <div class="text-gray-600 text-sm cursor-default">Cliente</div>
+              </div>
+            </div>
+            <div class="flex text-[#F0C75E] text-xl cursor-default">★★★★★</div>
+            <p class="text-gray-700">
+             Pensa numa pizza boa? Agora multiplica por 10? É essa aqui!!!<span class="underline font-bold">@dalore.pizzaria</span>
+            </p>
+          </div>
+
+          <!-- Conteúdo do depoimento 1 -->
+          <div class="bg-white/90 rounded-lg shadow-lg p-6 space-y-4 flex-1 h-[205px]">
+            <div class="flex items-center space-x-4">
+              <div
+                class="cursor-default h-12 w-12 flex items-center justify-center bg-red-900 text-white text-lg font-semibold rounded-full"
+              >
+                A
+              </div>
+              <div>
+                <div class="text-gray-900 font-medium cursor-default">
+                  abeltosta
+                </div>
+                <div class="text-gray-600 text-sm cursor-default">Cliente</div>
+              </div>
+            </div>
+            <div class="flex text-[#F0C75E] text-xl cursor-default">★★★★★</div>
+            <p class="text-gray-700">
+              A melhor ... Sempre ajudando alimentar os ferinhas aqui de casa!!!
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
 
     <script src="https://unpkg.com/lenis@1.3.17/dist/lenis.min.js"></script>

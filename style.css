@@ -20,9 +20,9 @@ h2,
   font-style: normal;
 }
 
-.viewMenu{
-    background: linear-gradient(107deg, #D03928 0.66%, #8D1D10 100%);
-
+.viewMenu {
+  background: linear-gradient(107deg, #d03928 0.66%, #8d1d10 100%);
+  border: 1px solid #000000;
 }
 
 .pedir {
